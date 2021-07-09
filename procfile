@@ -1,1 +1,1 @@
-worker: python HerokuBot.ipynb
+worker: python HerokuBot.py
