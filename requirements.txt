@@ -6,7 +6,6 @@ certifi==2017.4.17
 chardet==3.0.4
 click==6.7
 colorama==0.3.9
-Cython==0.28.3
 decorator==4.3.0
 dis3==0.1.2
 Django==1.11.13
