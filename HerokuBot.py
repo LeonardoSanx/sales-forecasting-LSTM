@@ -6,7 +6,7 @@ import pandas as pd
 
 
 
-API_KEY = os.environ.get('1845664289:AAH2ciPcxXuW08LuHXk8-q4Yrlb6kPQObX8')#('FORECASTING_API_KEY')
+API_KEY = os.environ.get('FORECASTING_API_KEY')
 bot = telebot.TeleBot(API_KEY)
 
 predictions = pd.read_csv('predictions.csv',index_col='date')
