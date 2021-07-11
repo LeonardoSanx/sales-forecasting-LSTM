@@ -1,5 +1,4 @@
 import os, telebot
-from telegram import Bot
 from telegram.ext import MessageHandler
 import requests
 
