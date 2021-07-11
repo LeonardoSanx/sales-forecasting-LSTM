@@ -2,4 +2,3 @@ pandas==0.24.2
 python_telegram_bot==13.1
 pyTelegramBotAPI==3.8.1
 Requests==2.25.1
-telegram==0.0.1
