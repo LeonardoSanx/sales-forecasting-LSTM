@@ -25,6 +25,12 @@ def shops(message):
     #except:
         #bot.send_message(message.chat.id, "Foi nao")
 
+@bot.message_handler(commands=['start'])
+def start(message):      
+    bot.send_message(message.chat.id, "Para receber as previsões de venda das lojas basta me enviar os comandos com os ID's (de '/0' até '/59').")
+
+
+
 bot.polling()
 
 
